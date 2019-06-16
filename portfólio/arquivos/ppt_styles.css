@@ -1,0 +1,101 @@
+* {
+	margin: auto;
+	padding: 0;
+	box-sizing: border-box;
+	color: gray
+}
+
+body {
+	background: white;
+}
+
+header{
+	background: #e1e0de;
+	padding: 25px;
+}
+
+header > h1 {
+	color: gray;
+	text-align: center;
+	font-family: system-ui;
+	font-size: 30px;
+}
+
+
+.score-board {
+	margin: 20px auto;
+	border: 3px solid #ffff85;
+	border-radius: 10px;
+	text-align: center;
+	width: 150px;
+	color: gray;
+	font-size: 30px;
+	padding: 15px 20px;
+	font-family: system-ui;
+	position: relative;
+}
+
+.badge {
+	color: gray;
+	font-size: 30px;
+	padding: 2px 10px;
+	font-family: system-ui;
+}
+
+#user-label {
+	position: absolute;
+	top: 16px;
+	left: -140px;
+	color: #a8dbdc;
+}
+
+#comp-label {
+	position: absolute;
+	top: 16px;
+	right: -100px;
+	color: #ff8980;
+}
+
+.result {
+	font-size: 20px;
+	color: gray;
+}
+
+.result > p {
+	text-align: center;
+	font-weight: bold;
+	font-family: system-ui;
+}
+
+.choices{
+	margin: 10px 0;
+	text-align: center;
+	
+}
+
+.choice{
+	padding: 10px;
+	display: inline-block;
+}
+
+#action-mesage {
+	text-align: center;
+	color: #bfbfbf;
+	font-family: system-ui;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+p{
+	margin: auto;
+	text-align: center;
+	align-content: center;
+}
+
+#erere{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  size: 40%;
+}
